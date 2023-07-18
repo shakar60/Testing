@@ -89,11 +89,14 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/rouxhaver/scripts-2/m
     print("Clicked")
 end)
 
-Tab1Section:NewButton("Infinite Jumps", "Makes Your Jump Infinite", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/shakar60/oksinfjump/main/workssssss",true))()
-    print("Clicked")
-end)
-
+Tab1Section:NewToggle("Infinite Jump", "Lets you infinitely jump", function()
+        local InfiniteJumpEnabled = true
+        game:GetService("UserInputService").JumpRequest:connect(function()
+            if InfiniteJumpEnabled then
+                game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")
+            end
+        end)
+    end)
 
 Tab2Section:NewButton("EVERY GAMES SCRIPT", "THIS IS ONE OF THE BEST SCRIPT ITS SO OP", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/scripthubekitten/SCRIPTHUBV2/main/SCRIPTHUBV2", true))()
@@ -629,12 +632,12 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe./main/Orbit%
 end)
 
 Tab1Section:NewButton("BetterRoblox Script", "Loads BetterRoblox Scropt ( Takes 5-10 Second To Load )", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/scripthubekitten/betterrobloxui/main/betterroblox", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shakar60/Dollhouse/main/Roleplay",true))()
     print("Clicked")
 end)
 
 Tab1Section:NewButton("OP BOOMBOX SCRIPT", "Loads OP DOLLHOUSE ROLEPLAY SCRIPT", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/shakar60/Dollhouse/main/Roleplay",true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Salmon-B0T/SalmonHub/main/SalmonHub.lua", true))()
     print("Clicked")
 end)
 
