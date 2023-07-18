@@ -617,3 +617,8 @@ Tab1Section:NewButton("BetterRoblox Script", "Loads BetterRoblox Scropt ( Takes 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/scripthubekitten/betterrobloxui/main/betterroblox", true))()
     print("Clicked")
 end)
+
+Tab1Section:NewButton("OP BOOMBOX SCRIPT", "Loads OP DOLLHOUSE ROLEPLAY SCRIPT", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Salmon-B0T/SalmonHub/main/SalmonHub.lua", true))()
+    print("Clicked")
+end)
