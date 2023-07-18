@@ -60,6 +60,10 @@ Tab1Section:NewTextBox("Set Fov", "Sets Fov", function(s)
 	print(s)
 end)
 
+Tab1Section:NewSlider("SliderText", "SliderInfo", 500, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    workspace.Gravity = (s)
+end)
+
 Tab1Section:NewButton("Rejoin Button Script", "Loads a Script Whenever You Get Kicked You Can Rejoin", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/rouxhaver/scripts-2/main/rejoin%20button%20for%20kick%20message.lua", true))()
     print("Clicked")
