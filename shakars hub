@@ -37,11 +37,9 @@ Tab1Section:NewSlider("Walkspeed", "Makes You Walk Faster,Max WalkSpeed Is 1000"
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
 end)
 
-Tab1Section:NewTextBox("TextboxText", "TextboxInfo", 1000, 16 function(s)
-	game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+Tab1Section:NewTextBox("TextboxText", "TextboxInfo", 1000, 16, function(s)
+	print(game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s)
 end)
-
-
 
 Tab1Section:NewSlider("JumpPower", "Makes You Jump Higher,Max JumpPower Is 500", 500, 50, function(s) -- 500 (MaxValue) | 50 (MinValue)
     game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
