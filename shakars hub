@@ -637,3 +637,8 @@ Tab1Section:NewButton("OP BOOMBOX SCRIPT", "Loads OP DOLLHOUSE ROLEPLAY SCRIPT",
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shakar60/Dollhouse/main/Roleplay",true))()
     print("Clicked")
 end)
+
+Tab1Section:NewButton("Pineapple Boombox Gui", "Loads Pineapple Boombox Gui", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shakar60/boombox/main/script",true))()
+    print("Clicked")
+end)
