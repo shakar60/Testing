@@ -1,3 +1,5 @@
+-------------------------------------------------------------------------------------------------------------------------
+
 -- Script Hub Is Made By shakar#6955
 
 -- If Your Reading This Please Dont Leak This Script
@@ -6,6 +8,15 @@
 
 local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
 local Window = Library.CreateLib("shakars hub", "Synapse")
+
+wait (1.0)
+game.StarterGui:SetCore("SendNotification", {
+Title = "Script loaded"; 
+Text = "Made by shakar#6955"; 
+Duration = 5; 
+})
+
+-------------------------------------------------------------------------------------------------------------------------
 
 -- Tabs
 
@@ -19,6 +30,8 @@ local Tab5 = Window:NewTab("Keystroke Tools")
 local Tab9 = Window:NewTab("Other Scripts")
 local Tab18 = Window:NewTab("Credits")
 
+-------------------------------------------------------------------------------------------------------------------------
+
 -- Sections Inside Tabs
 
 local Tab1Section = Tab1:NewSection("Scripts")
@@ -30,6 +43,8 @@ local Tab6Section = Tab6:NewSection("Hitbox expander")
 local Tab5Section = Tab5:NewSection("Keystroke Tools")
 local Tab9Section = Tab9:NewSection("Scripts")
 local Tab18Section = Tab18:NewSection("Credits")
+
+-------------------------------------------------------------------------------------------------------------------------
 
 -- The Scripts
 
