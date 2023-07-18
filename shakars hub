@@ -9,7 +9,7 @@ local Window = Library.CreateLib("shakars hub", "Synapse")
 
 -- Tabs
 
-local Tab1 = Window:NewTab("Scripts")
+local Tab1 = Window:NewTab("Main Tab")
 local Tab2 = Window:NewTab("Hubs/Guis")
 local Tab3 = Window:NewTab("Dh Scripts")
 local Tab7 = Window:NewTab("Admin commands")
@@ -55,7 +55,7 @@ Tab1Section:NewSlider("Fov Changer", "Changes Your Fov,Max Fov Is 120", 120, 0, 
     workspace.CurrentCamera.FieldOfView = s
 end)
 
-Tab1Section:NewTextBox("Set JumpPower", "Sets JumpPower", 120, 0, function(s)
+Tab1Section:NewTextBox("Set Fov", "Sets Fov", function(s)
     workspace.CurrentCamera.FieldOfView = s
 	print(s)
 end)
