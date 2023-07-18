@@ -55,6 +55,11 @@ Tab1Section:NewSlider("Fov Changer", "Changes Your Fov,Max Fov Is 120", 120, 0, 
     workspace.CurrentCamera.FieldOfView = s
 end)
 
+Tab1Section:NewTextBox("Set JumpPower", "Sets JumpPower", 120, 0, function(s)
+    workspace.CurrentCamera.FieldOfView = s
+	print(s)
+end)
+
 Tab1Section:NewButton("Rejoin Button Script", "Loads a Script Whenever You Get Kicked You Can Rejoin", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/rouxhaver/scripts-2/main/rejoin%20button%20for%20kick%20message.lua", true))()
     print("Clicked")
