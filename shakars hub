@@ -634,6 +634,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/scripthubekitten/bett
 end)
 
 Tab1Section:NewButton("OP BOOMBOX SCRIPT", "Loads OP DOLLHOUSE ROLEPLAY SCRIPT", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Salmon-B0T/SalmonHub/main/SalmonHub.lua", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shakar60/Dollhouse/main/Roleplay",true))()
     print("Clicked")
 end)
