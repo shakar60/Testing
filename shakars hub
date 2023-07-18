@@ -65,6 +65,7 @@ Tab1Section:NewSlider("JumpGravity", "Changes Your JumpGravity", 500, 0, functio
 end)
 
 Tab1Section:NewTextBox("Set JumpGravity","Sets JumpGravity", function(s)
+     workspace.Gravity = s
     	print(s)
 end)
 
