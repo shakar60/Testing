@@ -42,13 +42,13 @@ Tab1Section:NewTextBox("Set WalkSpeed", "Sets WalkSpeed", function(s)
 	print(s)
 end)
 
+Tab1Section:NewSlider("JumpPower", "Makes You Jump Higher,Max JumpPower Is 500", 500, 50, function(s) -- 500 (MaxValue) | 50 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
+end)
+
 Tab1Section:NewTextBox("Set JumpPower", "Sets JumpPower", function(s)
     game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
 	print(s)
-end)
-
-Tab1Section:NewSlider("JumpPower", "Makes You Jump Higher,Max JumpPower Is 500", 500, 50, function(s) -- 500 (MaxValue) | 50 (MinValue)
-    game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
 end)
 
 Tab1Section:NewSlider("Fov Changer", "Changes Your Fov,Max Fov Is 120", 120, 0, function(s) -- 120 (MaxValue) | 50 (MinValue)
