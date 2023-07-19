@@ -11,7 +11,7 @@ local Window = Library.CreateLib("shakars hub", "Synapse")
 
 wait (1.2)
 game.StarterGui:SetCore("SendNotification", {
-Title = "ahqkars hub Loaded"; 
+Title = "shakars hub Loaded"; 
 Text = "Made by shakar#6955"; 
 Duration = 5; 
 })
@@ -95,7 +95,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/shakar60/oksinfjump/m
 end)
 
 
-Tab2Section:NewButton("EVERY GAMES SCRIPT", "THIS IS ONE OF THE BEST SCRIPT ITS SO OP", function()
+Tab2Section:NewButton("Script Hub V2", "THIS IS ONE OF THE BEST SCRIPT ITS SO OP", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/scripthubekitten/SCRIPTHUBV2/main/SCRIPTHUBV2", true))()
     print("Clicked")
 end)
@@ -153,7 +153,7 @@ loadstring(game:HttpGet("https://pastebin.com/raw/zAuR0JUT"))()
     print("Clicked")
 end)
 
-Tab2Section:NewButton("Synapse X Executor", "Loads Synapse X Executor", function()
+Tab2Section:NewButton("Synapse X Executor (Patched)", "Loads Synapse X Executor", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/Chillz-s-scripts/main/Synapse-X-Remake.lua"))()
     print("Clicked")
 end)
@@ -174,7 +174,7 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/XRoLLu/UWU/main/BUILD
 end)
 
 Tab1Section:NewButton("Fe Save Location Script", "Save Your Location Script", function()
-loadstring(game:HttpGet(('https://0raw.githubusercontent.com/0Ben1/fe/main/Tp%20Place%20GUI'),true))()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/0Ben1/fe/main/Tp%20Place%20GUI'),true))()
     print("Clicked")
 end)
 
