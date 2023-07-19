@@ -75,11 +75,11 @@ Tab1Section:NewTextBox("Set Fov", "Sets Fov", function(s)
 	print(s)
 end)
 
-Tab1Section:NewSlider("Gravity", "Changes Your JumpGravity", 500, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
+Tab1Section:NewSlider("Gravity", "Changes Your Gravity", 500, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
     workspace.Gravity = (s)
 end)
 
-Tab1Section:NewTextBox("Set Gravity","Sets JumpGravity", function(s)
+Tab1Section:NewTextBox("Set Gravity","Sets Gravity", function(s)
      workspace.Gravity = s
     	print(s)
 end)
