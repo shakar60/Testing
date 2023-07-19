@@ -657,3 +657,22 @@ Tab2Section:NewButton("Giga Chad Hub V3.5", "Loads Giga Chad Hub", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/OWJBWKQLAISH/GigaChad-Hub/main/Version%20V3.5'))()
     print("Clicked")
 end)
+
+Tab1Section:NewDropdown("Control Friend Script", "DropdownInf", {"Main Script", "Make Your Friend Sit", "Makes Your Friend Health 0 And Kill Them", "Makes Your Friend Jump", "Makes Your Friend Die On Ground", "Makes Your Friend Float To Space", "Makes Your Friend Chat", "Makes Your Friend In R15 Clipped", "Makes Your Friend Teleport Up 100 Studs In The Sky", "Makes Your Friend Bald And Have No Hats", "Makes Your Friend New Hint"}, function(currentOption)
+    print(currentOption)
+end)
+
+local oldList = {
+  "2019",
+  "2020"
+}
+local newList = {
+  "2021",
+  "2022"
+}
+local dropdown = Section:NewDropdown("Dropdown","Info", oldList, function()
+
+end)
+Section:NewButton("Update Dropdown", "Refreshes Dropdown", function()
+  dropdown:Refresh(newList)
+end)
