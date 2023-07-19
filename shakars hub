@@ -48,12 +48,14 @@ local Tab18Section = Tab18:NewSection("Credits")
 
 -- The Scripts
 
+Tab1Section:NewButton("Theme 3", "Theme 3", function()
 for theme, color in pairs(themes) do
     Section:NewColorPicker(theme, "Change your "..theme, color, function(color3)
         Library:ChangeColor(theme, color3)
     end)
 end
-
+    print("Clicked")
+end)
 
 Tab1Section:NewSlider("Walkspeed", "Makes You Walk Faster,Max WalkSpeed Is 1000", 500, 16, function(s) -- 1000 (MaxValue) | 16 (MinValue)
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
