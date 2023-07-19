@@ -50,18 +50,10 @@ local Tab18Section = Tab18:NewSection("Credits")
 
 local colors = {
     SchemeColor = Color3.fromRGB(0,255,255),
-    Background = Color3.fromRGB(0, 0, 0),
-    Header = Color3.fromRGB(0, 0, 0),
+    Background = Color3.fromRGB(37, 37, 27),
+    Header = Color3.fromRGB(25, 25, 25),
     TextColor = Color3.fromRGB(255,255,255),
     ElementColor = Color3.fromRGB(20, 20, 20)
-}
-
-local colors = {
-    SchemeColor = Color4.fromRGB(0,723,823),
-    Background = Color4.fromRGB(0, 0, 0),
-    Header = Color4.fromRGB(0, 0, 0),
-    TextColor = Color4.fromRGB(255,255,255),
-    ElementColor = Color4.fromRGB(30, 30, 30)
 }
 
 Tab1Section:NewSlider("Walkspeed", "Makes You Walk Faster,Max WalkSpeed Is 1000", 500, 16, function(s) -- 1000 (MaxValue) | 16 (MinValue)
