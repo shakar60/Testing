@@ -11,7 +11,7 @@ local Window = Library.CreateLib("shakars hub", "Synapse")
 
 wait (1.2)
 game.StarterGui:SetCore("SendNotification", {
-Title = "Script loaded"; 
+Title = "ahqkars hub Loaded"; 
 Text = "Made by shakar#6955"; 
 Duration = 5; 
 })
