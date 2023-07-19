@@ -652,3 +652,8 @@ Tab1Section:NewButton("Pineapple Boombox Gui", "Loads Pineapple Boombox Gui", fu
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shakar60/boombox/main/script",true))()
     print("Clicked")
 end)
+
+Tab2Section:NewButton("Giga Chad Hub V3.5", "Loads Giga Chad Hub", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/OWJBWKQLAISH/GigaChad-Hub/main/Version%20V3.5'))()
+    print("Clicked")
+end)
