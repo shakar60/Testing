@@ -658,10 +658,13 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/OWJBWKQLAISH/GigaChad
     print("Clicked")
 end)
 
-Tab1Section:NewDropdown("Control Friend Script", "DropdownInf", {"Main Script", "Make Your Friend Sit", "Makes Your Friend Health 0 And Kill Them", "Makes Your Friend Jump", "Makes Your Friend Die On Ground", "Makes Your Friend Float To Space", "Makes Your Friend Chat", "Makes Your Friend In R15 Clipped", "Makes Your Friend Teleport Up 100 Studs In The Sky", "Makes Your Friend Bald And Have No Hats", "Makes Your Friend New Hint"}, function(currentOption)
+Tab1Section:NewDropdown("Control Friend Script", "DropdownInf", {"Main Script"}, function(currentOption)
     loadstring(game:HttpGet"https://rawscripts.net/raw/Universal-Script-ExShare-V2-10922", true)()
     print(currentOption)
 end)
 
-
+Tab1Section:OldDropdown("Sit Friend Script", "DropdownInf", {"Main Script"}, function(currentOption)
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/OWJBWKQLAISH/GigaChad-Hub/main/Version%20V3.5'))()
+    print(currentOption)
+end)
 --Control Friend Script", "DropdownInf", {"Main Script", "Make Your Friend Sit", "Makes Your Friend Health 0 And Kill Them", "Makes Your Friend Jump", "Makes Your Friend Die On Ground", "Makes Your Friend Float To Space", "Makes Your Friend Chat", "Makes Your Friend In R15 Clipped", "Makes Your Friend Teleport Up 100 Studs In The Sky", "Makes Your Friend Bald And Have No Hats", "Makes Your Friend New Hint"
