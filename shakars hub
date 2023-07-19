@@ -84,16 +84,18 @@ Tab1Section:NewTextBox("Set JumpGravity","Sets JumpGravity", function(s)
     	print(s)
 end)
 
-Tab1Section:NewToggle("ToggleText", "ToggleInfo", function(state)
-    if state then
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/shakar60/anti.-./main/fling",true))()
-    else
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/shakar60/anti.-./main/fling",true))()
-    end
+Tab1Section:NewButton("Best Anti Fling", "Loads a Script That Makes You Not Get Flinged", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shakar60/anti.-./main/fling",true))()
+    print("Clicked")
 end)
 
 Tab1Section:NewButton("Rejoin Button Script", "Loads a Script Whenever You Get Kicked You Can Rejoin", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/rouxhaver/scripts-2/main/rejoin%20button%20for%20kick%20message.lua", true))()
+    print("Clicked")
+end)
+
+Tab1Section:NewButton("Server Finder", "Loads a Script That Find You Any Server You Want", function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Server-Browser_80",true))()
     print("Clicked")
 end)
 
