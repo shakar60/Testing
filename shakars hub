@@ -7,7 +7,7 @@
 -- Library & Window
 
 local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
-local Window = Library.CreateLib("shakars hub", colors)
+local Window = Library.CreateLib("shakars hub", "Synapse")
 
 wait (1.2)
 game.StarterGui:SetCore("SendNotification", {
@@ -47,14 +47,6 @@ local Tab18Section = Tab18:NewSection("Credits")
 -------------------------------------------------------------------------------------------------------------------------
 
 -- The Scripts
-
-local colors = {
-    SchemeColor = Color3.fromRGB(0,255,255),
-    Background = Color3.fromRGB(0, 0, 0),
-    Header = Color3.fromRGB(0, 0, 0),
-    TextColor = Color3.fromRGB(0,255,0),
-    ElementColor = Color3.fromRGB(20, 20, 20)
-}
 
 Tab1Section:NewSlider("Walkspeed", "Makes You Walk Faster,Max WalkSpeed Is 1000", 500, 16, function(s) -- 1000 (MaxValue) | 16 (MinValue)
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
