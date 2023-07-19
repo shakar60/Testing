@@ -7,7 +7,7 @@
 -- Library & Window
 
 local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
-local Window = Library.CreateLib(shakars hub", colors)
+local Window = Library.CreateLib("TITLE", colors)
 
 wait (1.2)
 game.StarterGui:SetCore("SendNotification", {
