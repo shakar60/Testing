@@ -663,16 +663,24 @@ Tab1Section:NewDropdown("Control Friend Script", "DropdownInf", {"Main Script", 
 end)
 
 local oldList = {
-  "2019",
-  "2020"
+  "loadstring(game:HttpGet"https://rawscripts.net/raw/Universal-Script-ExShare-V2-10922", true)()",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  ""
 }
 local newList = {
   "2021",
   "2022"
 }
-local dropdown = Section:NewDropdown("Dropdown","Info", oldList, function()
+local dropdown = Tab1Section:NewDropdown("Dropdown","Info", oldList, function()
 
 end)
-Section:NewButton("Update Dropdown", "Refreshes Dropdown", function()
+TabSection:NewButton("Update Dropdown", "Refreshes Dropdown", function()
   dropdown:Refresh(newList)
 end)
