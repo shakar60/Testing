@@ -659,28 +659,9 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/OWJBWKQLAISH/GigaChad
 end)
 
 Tab1Section:NewDropdown("Control Friend Script", "DropdownInf", {"Main Script", "Make Your Friend Sit", "Makes Your Friend Health 0 And Kill Them", "Makes Your Friend Jump", "Makes Your Friend Die On Ground", "Makes Your Friend Float To Space", "Makes Your Friend Chat", "Makes Your Friend In R15 Clipped", "Makes Your Friend Teleport Up 100 Studs In The Sky", "Makes Your Friend Bald And Have No Hats", "Makes Your Friend New Hint"}, function(currentOption)
+    loadstring(game:HttpGet"https://rawscripts.net/raw/Universal-Script-ExShare-V2-10922", true)()
     print(currentOption)
 end)
 
-local oldList = {
-  "loadstring(game:HttpGet"https://rawscripts.net/raw/Universal-Script-ExShare-V2-10922", true)()",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  ""
-}
-local newList = {
-  "2021",
-  "2022"
-}
-local dropdown = Tab1Section:NewDropdown("Dropdown","Info", oldList, function()
 
-end)
-TabSection:NewButton("Update Dropdown", "Refreshes Dropdown", function()
-  dropdown:Refresh(newList)
-end)
+--Control Friend Script", "DropdownInf", {"Main Script", "Make Your Friend Sit", "Makes Your Friend Health 0 And Kill Them", "Makes Your Friend Jump", "Makes Your Friend Die On Ground", "Makes Your Friend Float To Space", "Makes Your Friend Chat", "Makes Your Friend In R15 Clipped", "Makes Your Friend Teleport Up 100 Studs In The Sky", "Makes Your Friend Bald And Have No Hats", "Makes Your Friend New Hint"
