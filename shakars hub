@@ -657,3 +657,18 @@ Tab2Section:NewButton("Giga Chad Hub V3.5", "Loads Giga Chad Hub", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/OWJBWKQLAISH/GigaChad-Hub/main/Version%20V3.5'))()
     print("Clicked")
 end)
+
+Tab1Section:NewButton("Esp Box", "Loads Esp Box", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shakar60/box.esp/main/s",true))()
+    print("Clicked")
+end)
+
+Tab1Section:NewButton("Name Esp", "Loads Name Esp", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shakar60/name.esp/main/s",true))()
+    print("Clicked")
+end)
+
+Tab1Section:NewButton("Highlight Esp", "Loads Highlight Esp", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shakar60/charm/main/esp",true))()
+    print("Clicked")
+end)
