@@ -479,11 +479,11 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/creepstu/fuzzy-octo-g
     print("Clicked")
 end)
 
-Tab18Section:NewLabel("All Credits is going to me")
+Tab18Section:NewLabel("Credits To GamerScripter For Making The Toggle Ui Button")
 
 Tab18Section:NewLabel("discord is shakar#6955")
 
-Tab18Section:NewLabel("i dont give credits to scripts")
+Tab18Section:NewLabel("i dont give credit to scripts")
 
 Tab18Section:NewLabel("Script gui/hub is made by shakar#6955")
 
