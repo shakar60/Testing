@@ -141,7 +141,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/shakar60/oksinfjump/m
 end)
 
 
-Tab2Section:NewButton("EVERY GAMES SCRIPT", "THIS IS ONE OF THE BEST SCRIPT ITS SO OP", function()
+Tab2Section:NewButton("Script Hub V2", "Loads Script Hub V2", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/scripthubekitten/SCRIPTHUBV2/main/SCRIPTHUBV2", true))()
     print("Clicked")
 end)
