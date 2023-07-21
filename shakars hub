@@ -125,6 +125,11 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/rouxhaver/scripts-2/m
     print("Clicked")
 end)
 
+Tab1Section:NewButton("Direct Rejoin Script", "Loads a Script That Makes You Directly Rejoin", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shakar60/Direct/main/Rejoin",true))()
+    print("Clicked")
+end)
+
 Tab1Section:NewButton("Server Finder", "Loads a Script That Find You Any Server You Want", function()
 loadstring(game:HttpGet("https://rawscripts.net/raw/Server-Browser_80",true))()
     print("Clicked")
@@ -191,11 +196,6 @@ end)
 
 Tab2Section:NewButton("Cheesy Hub", "Loads Cheesy Hub", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/zAuR0JUT"))()
-    print("Clicked")
-end)
-
-Tab2Section:NewButton("Synapse X Executor", "Loads Synapse X Executor", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/Chillz-s-scripts/main/Synapse-X-Remake.lua"))()
     print("Clicked")
 end)
 
@@ -706,5 +706,10 @@ end)
 
 Tab1Section:NewButton("EspV4", "Loads EspV4", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shakar60/blue./main/esp",true))()
+    print("Clicked")
+end)
+
+Tab3Section:NewButton("IosW Lock", "Loads IosW Lock", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shakar60/iosW/main/Lock",true))()
     print("Clicked")
 end)
