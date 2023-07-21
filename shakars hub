@@ -79,6 +79,8 @@ end)
 
 -- The Scripts
 
+Tab1Section:NewLabel("Local Player")
+
 Tab1Section:NewSlider("Walkspeed", "Makes You Walk Faster,Max WalkSpeed Is 1000", 500, 16, function(s) -- 1000 (MaxValue) | 16 (MinValue)
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
 end)
@@ -120,6 +122,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/shakar60/anti.-./main
     print("Clicked")
 end)
 
+Tab1Section:NewLabel("Rejoin Scripts")
+
 Tab1Section:NewButton("Rejoin Button Script", "Loads a Script Whenever You Get Kicked You Can Rejoin", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/rouxhaver/scripts-2/main/rejoin%20button%20for%20kick%20message.lua", true))()
     print("Clicked")
@@ -129,6 +133,8 @@ Tab1Section:NewButton("Direct Rejoin Script", "Loads a Script That Makes You Dir
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shakar60/Direct/main/Rejoin",true))()
     print("Clicked")
 end)
+
+Tab1Section:NewLabel("Server Finder")
 
 Tab1Section:NewButton("Server Finder", "Loads a Script That Find You Any Server You Want", function()
 loadstring(game:HttpGet("https://rawscripts.net/raw/Server-Browser_80",true))()
