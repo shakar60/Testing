@@ -194,7 +194,7 @@ loadstring(game:HttpGet('https://pastebin.com/raw/AYtzGEPb'))()
     print("Clicked")
 end)
 
-Tab2Section:NewButton("Cheesy Hub", "Loads Cheesy Hub", function()
+Tab2Section:NewButton("Chiezzy Hub", "Loads Cheesy Hub", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/zAuR0JUT"))()
     print("Clicked")
 end)
