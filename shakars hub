@@ -440,6 +440,22 @@ loadstring(game:HttpGet(("https://pastebin.com/raw/YNVbeqPy")))()
     print("Clicked")
 end)
 
+Tab9Section:NewLabel("Tween Tp")
+
+Tab9Section:NewButton("Tween Tp Script", "Loads An Script That Lets You Tween Tp Anywhere", function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/0Ben1/fe/main/obf_gtQG8WW70awuM1u2O6I8Z3j007xzGnfC0vw6D6Tzj226R20KPLyKZR8MbK5V57mu.lua.txt'),true))()
+    print("Clicked")
+end)
+
+Tab9Section:NewLabel("Click To Tp")
+
+Tab9Section:NewButton("Click To Tp", "Loads An Script That Lets You Click To Tp Anywhere", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shakar60/ClickToTp/main/Script",true))()
+    print("Clicked")
+end)
+
+Tab9Section:NewLabel("No Clip Gui")
+
 Tab9Section:NewButton("No Clip Gui", "Loads An Gui ThatLets You Go Inside Of Anything", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/pKV2Ys4E"))()
     print("Clicked")
@@ -629,6 +645,8 @@ Tab18Section:NewLabel("Script Hub Is Made By shakar#6955")
 Tab18Section:NewLabel("The gui/hub is Kavo Ui Library")
 
 Tab18Section:NewLabel("Credits Bido Skins For Showcasing My Script Hub")
+
+Tab7Section:NewLabel("NameLess Admin Command")
 
 Tab7Section:NewButton("Nameless Admin", "Loads An Admin that is useful", function()
 loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Nameless-Admin-10833"))()
