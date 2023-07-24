@@ -566,7 +566,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/SussyImposterRed/Scri
     print("Clicked")
 end)
 
-Tab6Section&*:NewLabel("Hitbox Expander V1")
+Tab6Section:NewLabel("Hitbox Expander V1")
 
 Tab6Section:NewButton("Hitbox Expander V1", "Loads a Script That Makes Your Hitbox Bigger", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shakar60/hit/main/box",true))()
