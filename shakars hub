@@ -452,29 +452,37 @@ loadstring(game:HttpGet("https://pastebin.com/raw/8G5wzp3L"))()
     print("Clicked")
 end)
 
-Tab3Section:NewLabel("Fake Macro V1") 
+Tab3Section:NewLabel("Fake Macro")
 
 Tab3Section:NewButton("Fake Macro", "Loads Fake Macro For Alot Of Diffrent Maps", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shakar60/Macro/main/M.N.C",true))()
     print("Clicked")
 end)
 
+Tab4Section:NewLabel("Chest Farm V1")
+
 Tab4Section:NewButton("Blox Fruit Chest Farm V1", "Loads Blox Fruit Chest Farm Script", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/NickelHUBB/SonicTuru/main/ChestFarmOp"))()
     print("Clicked")
 end)
+
+Tab4Section:NewLabel("Chest Farm V2")
 
 Tab4Section:NewButton("Blox Fruit Chest Farm V2 [ the best one ]", "Loads Blox Fruit Chest Farm Script", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/main/Chest_onoff"))()
     print("Clicked")
 end)
 
+Tab4Section:NewLabel("Blox Fruit Hub")
+
 Tab4Section:NewButton("Blox Fruit Hub", "Loads Blox Fruit Hub With Alot Of Other Hubs", function()
 loadstring(game:HttpGet("https://gist.githubusercontent.com/lxnnydev/1325a6ec942d0bb837bafe0ee25fcc5c/raw/c9ab9f038142427ba1739f099e78bb0b0588fa40/bf_script.lua",true))()
     print("Clicked")
 end)
 
-Tab4Section:NewButton("Blox Fruit Gui V2", "Loads a Blox Fruit Gui With Alot Of Stuffs", function()
+Tab4Section:NewLabel("Blox Fruit Hub V2 [ Trash ]")
+
+Tab4Section:NewButton("Blox Fruit Hub V2", "Loads a Blox Fruit Hub With Alot Of Stuffs", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/MkoriCraft/UPDBF2xSwitch/main/Protected%20(3).lua",true))()
     print("Clicked")
 end)
@@ -485,6 +493,8 @@ Tab9Section:NewButton("Ninja Legends Gui", "Loads Ninja Legends Gui", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AliCode14/scripts/main/ScriptHub.lua"))()
     print("Clicked")
 end)
+
+Tab3Section:NewLabel("Beamed Ware Hub")
 
 Tab3Section:NewButton("Beamed Ware Hub", "Loads Beamed Ware Hub", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/RYZZCHIPSX/ryzzchips/main/beamed%20ware%20script"))();
