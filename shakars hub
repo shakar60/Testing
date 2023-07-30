@@ -462,31 +462,32 @@ loadstring(game:HttpGet('https://pastebin.com/raw/wyvdb7gr'))()
     print("Clicked")
 end)
 
-Tab9Section:NewLabel("Tp Script")
+Tab1Section:NewLabel("Tp Scripts")
 
 Tab9Section:NewButton("Teleport Script", "Loads An Script That Lets You Teleport Other Players", function()
 loadstring(game:HttpGet(("https://pastebin.com/raw/YNVbeqPy")))()
     print("Clicked")
 end)
 
-Tab9Section:NewLabel("Tween Tp")
-
-Tab9Section:NewButton("Tween Tp Script", "Loads An Script That Lets You Tween Tp Anywhere", function()
+Tab1Section:NewButton("Tween Tp Script", "Loads An Script That Lets You Tween Tp Anywhere", function()
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/0Ben1/fe/main/obf_gtQG8WW70awuM1u2O6I8Z3j007xzGnfC0vw6D6Tzj226R20KPLyKZR8MbK5V57mu.lua.txt'),true))()
     print("Clicked")
 end)
 
-Tab9Section:NewLabel("Click To Tp")
-
-Tab9Section:NewButton("Click To Tp", "Loads An Script That Lets You Click To Tp Anywhere", function()
+Tab1Section:NewButton("Click To Tp", "Loads An Script That Lets You Click To Tp Anywhere", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shakar60/ClickToTp/main/Script",true))()
     print("Clicked")
 end)
 
 Tab9Section:NewLabel("No Clip Gui")
 
-Tab9Section:NewButton("No Clip Gui", "Loads An Gui ThatLets You Go Inside Of Anything", function()
+Tab9Section:NewButton("No Clip Gui", "Loads An Gui That Lets You Go Inside Of Anything", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/pKV2Ys4E"))()
+    print("Clicked")
+end)
+
+Tab9Section:NewButton("No Clip Gui V2", "Loads An Gui That Lets You Go Inside Of Anything", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/B5xRxTnk",true))()
     print("Clicked")
 end)
 
