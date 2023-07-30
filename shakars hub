@@ -464,7 +464,7 @@ end)
 
 Tab1Section:NewLabel("Tp Scripts")
 
-Tab9Section:NewButton("Teleport Script", "Loads An Script That Lets You Teleport Other Players", function()
+Tab1Section:NewButton("Teleport Script", "Loads An Script That Lets You Teleport Other Players", function()
 loadstring(game:HttpGet(("https://pastebin.com/raw/YNVbeqPy")))()
     print("Clicked")
 end)
