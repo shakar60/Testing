@@ -16,8 +16,8 @@ local Window = Library.CreateLib("shakars hub", "Synapse")
 local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/Dynissimo/main/Scripts/AkaliNotif.lua"))();
 local Notify = AkaliNotif.Notify;
 Notify({
-Description = "shakars hub Loaded";
-Title = "shakar#6955 on discord";
+Description = "shakar#6955 on discord";
+Title = "shakars hub Loaded";
 Duration = 5;
 });
 
