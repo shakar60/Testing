@@ -9,6 +9,20 @@
 local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
 local Window = Library.CreateLib("shakars hub", "Synapse")
 
+--Notify
+
+--1st Notify
+
+local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/Dynissimo/main/Scripts/AkaliNotif.lua"))();
+local Notify = AkaliNotif.Notify;
+Notify({
+Description = "shakars hub Loaded";
+Title = "shakar#6955 on discord";
+Duration = 5;
+});
+
+--2nd Notify
+
 wait (0.5)
 game.StarterGui:SetCore("SendNotification", {
 Title = "shakars hub Loaded"; 
@@ -776,13 +790,6 @@ Tab2Section:NewLabel("Shaders")
 
 Tab2Section:NewButton("Shaders", "Gives You Shader In Every Map", function()
 loadstring(game:HttpGet(('https://pastefy.app/xXkUxA0P/raw'),true))()
-    print("Clicked")
-end)
-
-Tab3Section:NewLabel("CamLock V3")
-
-Tab3Section:NewButton("Camlock V3", "Loads Camlock Script", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/scripthubekitten/camlockv3/main/kjnjnjn", true))()
     print("Clicked")
 end)
 
