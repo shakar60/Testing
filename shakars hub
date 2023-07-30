@@ -972,3 +972,17 @@ Tab1Section:NewButton("Hacker Chat", "Loads Hacker Chat Script", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shakar60/hacker./main/chat",true))()
     print("Clicked")
 end)
+
+Tab2Section:NewLabel("Game Script Hub V3")
+
+Tab2Section:NewButton("Game Script V3", "Loads Game Script V3", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GamerScripter/Game-Hub/main/loader"))()
+    print("Clicked")
+end)
+
+Tab2Section:NewLabel("Multi Scripter X V2")
+
+Tab2Section:NewButton("Multi Scripter X V2", "Loads Multi Scripter X V2", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GamerScripter/Multi-Scripter-X/main/loader"))()
+    print("Clicked")
+end)
