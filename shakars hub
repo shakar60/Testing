@@ -36,7 +36,7 @@ Duration = 5;
 
 local Tab1 = Window:NewTab("Main Tab")
 local Tab2 = Window:NewTab("Hubs/Guis")
-local Tab3 = Window:NewTab("Dh Scripts")
+local Tab3 = Window:NewTab("Aimlock/Lock Scripts")
 local Tab7 = Window:NewTab("Admin commands")
 local Tab4 = Window:NewTab("Blox fruits scripts")
 local Tab6 = Window:NewTab("Hitbox expander")
@@ -959,6 +959,7 @@ Tab1Section:NewButton("Fe Make Ppl Fly", "Loads Fe Make Ppl Fly", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shakar60/fe-make-ppl-fly/main/s",true))()
     print("Clicked")
 end)
+
 Tab2Section:NewLabel("Lock Script Hub")
 
 Tab2Section:NewButton("Lock Script Hub", "Loads a Hub With Locks In it", function()
@@ -984,5 +985,12 @@ Tab2Section:NewLabel("Multi Scripter X V2")
 
 Tab2Section:NewButton("Multi Scripter X V2", "Loads Multi Scripter X V2", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/GamerScripter/Multi-Scripter-X/main/loader"))()
+    print("Clicked")
+end)
+
+Tab3Section:NewLabel("Silent Aim Gui")
+
+Tab3Section:NewButton("Silent Aim Gui", "Loads Silent Aim Hub", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/zuwdaq/legit-slient-aim-script/main/legit",true))()
     print("Clicked")
 end)
