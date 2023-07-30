@@ -965,3 +965,10 @@ Tab2Section:NewButton("Lock Script Hub", "Loads a Hub With Locks In it", functio
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/ChaseSYNX/Scripts/main/DragonWareAimlock')))()
     print("Clicked")
 end)
+
+Tab1Section:NewLabel("Fe Hacker Chat")
+
+Tab1Section:NewButton("Hacker Chat", "Loads Hacker Chat Script", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shakar60/hacker./main/chat",true))()
+    print("Clicked")
+end)
