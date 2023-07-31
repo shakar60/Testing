@@ -1022,6 +1022,13 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/iforgotmodz/Universal
     print("Clicked")
 end)
 
+Tab2Section:NewLabel("Low Gfx Script")
+
+Tab2Section:NewButton("Low Gfx", "Loads Los Gfx Script", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/zQUqDRdJ",true))()
+    print("Clicked")
+end)
+
 --Tab Section:NewLabel("")
 
 --Tab Section:NewButton("", "", function()
