@@ -133,7 +133,7 @@ end)
 
 Tab1Section:NewLabel("Fling & Anti Fling")
 
-Tab1Section:NewButton("Anti Fling V1", "Loads a Script That Makes You Not Get Flinged", function()
+Tab1Section:NewButton("Anti Fling V1 [ Recommended ]", "Loads a Script That Makes You Not Get Flinged", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shakar60/anti.-./main/fling",true))()
     print("Clicked")
 end)
@@ -145,6 +145,11 @@ end)
 
 Tab1Section:NewButton("Fe Click Fling", "Loads An Script That Gives You An Switch To Fling Ppl", function()
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/0Ben1/fe/main/obf_4Q10q272NIQc093Os32uBi29U9PWkU0d3Tr1Uh4k92vus2u10786Z0jep5uhqE2N.lua.txt'),true))()
+    print("Clicked")
+end)
+
+Tab1Section:NewButton("Fe Touch Fling", "Loads Fe Touch Fling", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe./main/Fling%20GUI"))()
     print("Clicked")
 end)
 
