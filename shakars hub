@@ -997,7 +997,7 @@ end)
 
 Tab3Section:NewLabel("Nyula Gui")
 
-Tab2Section:NewButton("Nyula Gui", "Loads Nyula Gui For Locks And More", function()--WOW WE HIT 1K
+Tab3Section:NewButton("Nyula Gui", "Loads Nyula Gui For Locks And More", function()--WOW WE HIT 1K
 loadstring(game:HttpGet("https://raw.githubusercontent.com/nyulachan/nyula/main/nyula", true))()
     print("Clicked")
 end)
