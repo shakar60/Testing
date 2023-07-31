@@ -1001,3 +1001,19 @@ Tab3Section:NewButton("Nyula Gui", "Loads Nyula Gui For Locks And More", functio
 loadstring(game:HttpGet("https://raw.githubusercontent.com/nyulachan/nyula/main/nyula", true))()
     print("Clicked")
 end)
+
+Tab2Section:NewLabel("Honk Bypasser")
+
+Tab2Section:NewButton("Honk Bypasser Gui", "Loads Honk Bypasser", function()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/7851fe798cf922d175832a7e3729a376.lua"))()
+    print("Clicked")
+end)
+
+
+
+--Tab Section:NewLabel("")
+
+--Tab Section:NewButton("", "", function()
+--
+ --   print("Clicked")
+--end)
