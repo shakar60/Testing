@@ -1015,6 +1015,12 @@ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/7851fe798cf922
 end)
 
 
+Tab2Section:NewLabel("i forgor Hub")
+
+Tab2Section:NewButton("i forgor Hub", "Loads i forgor Hub", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/iforgotmodz/Universal-Script-Loader/main/Updated1.3"))()
+    print("Clicked")
+end)
 
 --Tab Section:NewLabel("")
 
