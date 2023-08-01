@@ -684,7 +684,7 @@ Tab18Section:NewLabel("Credits Bido Skins For Showcasing My Script Hub")
 Tab7Section:NewLabel("NameLess Admin Command")
 
 Tab7Section:NewButton("Nameless Admin", "Loads An Admin that is useful", function()
-loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Nameless-Admin-10833"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source%22))()",true))()
     print("Clicked")
   end)
 
