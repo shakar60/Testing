@@ -689,7 +689,7 @@ Tab18Section:NewLabel("Credits Bido Skins For Showcasing My Script Hub")
 Tab7Section:NewLabel("NameLess Admin Command")
 
 Tab7Section:NewButton("Nameless Admin", "Loads An Admin that is useful", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source%22))()",true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source"))();
     print("Clicked")
   end)
 
