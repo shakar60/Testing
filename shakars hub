@@ -1,4 +1,4 @@
--------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
 
 -- Script Hub Is Made By shakar#6955
 
@@ -1019,7 +1019,6 @@ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/7851fe798cf922
     print("Clicked")
 end)
 
-
 Tab2Section:NewLabel("i forgor Hub")
 
 Tab2Section:NewButton("i forgor Hub", "Loads i forgor Hub", function()
@@ -1029,14 +1028,14 @@ end)
 
 Tab2Section:NewLabel("Low Gfx Script")
 
-Tab2Section:NewButton("Low Gfx", "Loads Los Gfx Script", function()
+Tab2Section:NewButton("Low Gfx", "Loads Low Gfx Script", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/zQUqDRdJ",true))()
     print("Clicked")
 end)
 
---Tab Section:NewLabel("")
+Tab1Section:NewLabel("White Room Script")
 
---Tab Section:NewButton("", "", function()
---
- --   print("Clicked")
---end)
+Tab1Section:NewButton("White Room Script", "Loads White Room Script", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NFMS-1/WRUI/main/1", true))()
+    print("Clicked")
+end)
