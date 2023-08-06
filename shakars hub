@@ -30,7 +30,13 @@ Text = "Made by shakar#6955";
 Duration = 5; 
 })
 
--------------------------------------------------------------------------------------------------------------------------
+game.StarterGui:SetCore("SendNotification", {
+Title = "Join discord"; 
+Text = "https://discord.gg/UhceAu7y"; 
+Duration = 10; 
+})
+
+------------------------------------------------------------------------------------------------------------------------
 
 -- Tabs
 
@@ -89,10 +95,13 @@ Toggle.MouseButton1Click:connect(function()
   Library:ToggleUI()
 end)
 
--------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
 
--- The Scripts
+--discord server
 
+setclipboard("Join Discord https://discord.gg/UhceAu7y")
+
+--The Scripts
 Tab1Section:NewLabel("Local Player")
 
 Tab1Section:NewSlider("Walkspeed", "Makes You Walk Faster,Max WalkSpeed Is 1000", 500, 16, function(s) -- 1000 (MaxValue) | 16 (MinValue)
@@ -501,9 +510,9 @@ loadstring(game:HttpGet("https://pastebin.com/raw/B5xRxTnk",true))()
     print("Clicked")
 end)
 
-Tab2Section:NewLabel("Brads Hub")
+Tab2Section:NewLabel("Brans Hub")
 
-Tab2Section:NewButton("Brads Hub", "Loads Brads Hub", function()
+Tab2Section:NewButton("Brans Hub", "Loads Brans Hub", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/8G5wzp3L"))()
     print("Clicked")
 end)
@@ -618,13 +627,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/MarsQQ/ScriptHubScrip
     print("Clicked")
 end)
 
-Tab9Section:NewLabel("Keystrokes Script")
-
-Tab9Section:NewButton("KeyStrokes Script", "Loads WASD KeyStrokes Script", function()
-loadstring(game:HttpGet(('https://pastefy.app/Te4dwSw2/raw'),true))()
-    print("Clicked")
-end)
-
 Tab9Section:NewLabel("Cw Script")
 
 Tab9Section:NewButton("Combat Warrior Hub", "Loads Combat Warrior Nova Hub", function()
@@ -674,17 +676,19 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/creepstu/fuzzy-octo-g
     print("Clicked")
 end)
 
-Tab18Section:NewLabel("Credits To GamerScripter For Making The Toggle Ui Button")
+setclipboard("https://discord.gg/UhceAu7y")
 
 Tab18Section:NewLabel("discord is shakar#6955")
 
-Tab18Section:NewLabel("Credits To All The Poepe That Make The Scripts")
+Tab18Section:NewLabel("Credits To All The Poeple That Make The Scripts")
 
 Tab18Section:NewLabel("Script Hub Is Made By shakar#6955")
 
 Tab18Section:NewLabel("The gui/hub is Kavo Ui Library")
 
 Tab18Section:NewLabel("Credits Bido Skins For Showcasing My Script Hub")
+
+Tab18Section:NewLabel("Credits To GamerScripter For Making The Toggle Ui Button")
 
 Tab7Section:NewLabel("NameLess Admin Command")
 
@@ -809,6 +813,20 @@ Tab5Section:NewLabel("N Tool")
 
 Tab5Section:NewButton("N tool", "Gives You N Tool", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shakar60/N/main/Tool",true))()
+    print("Clicked")
+end)
+
+Tab5Section:NewLabel("Keystrokes Script")
+
+Tab5Section:NewButton("KeyStrokes Script", "Loads WASD KeyStrokes Script", function()
+loadstring(game:HttpGet(('https://pastefy.app/Te4dwSw2/raw'),true))()
+    print("Clicked")
+end)
+
+Tab5Section:NewLabel("Keybind Maker")
+
+Tab5Section:NewButton("Keybind Maker", "Makes Any Keybind You Want", function()
+loadstring(game:HttpGet(('https://pastefy.app/Ujm4HWxh/raw'),true))()
     print("Clicked")
 end)
 
@@ -1037,5 +1055,12 @@ Tab1Section:NewLabel("White Room Script")
 
 Tab1Section:NewButton("White Room Script", "Loads White Room Script", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/NFMS-1/WRUI/main/1", true))()
+    print("Clicked")
+end)
+
+Tab3Section:NewLabel("imperialw Lock")
+
+Tab3Section:NewButton("imperialw Lock", "Loads imperialw Lock Script", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shakar60/imperialw/main/imperialw",true))()
     print("Clicked")
 end)
