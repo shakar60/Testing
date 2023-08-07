@@ -99,7 +99,7 @@ end)
 
 --discord server
 
-setclipboard("Join Discord https://discord.gg/UhceAu7y")
+setclipboard("https://discord.gg/UhceAu7y")
 
 --The Scripts
 Tab1Section:NewLabel("Local Player")
@@ -336,9 +336,9 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/V31nc/2642/Created/VH
     print("Clicked")
 end)
 
-Tab3Section:NewLabel("Private Kai Lock")
+Tab3Section:NewLabel("Kals Private Lock")
 
-Tab3Section:NewButton("Dh Private Kai Lock", "Loads a Tool That Gives You Lock In Dh", function()
+Tab3Section:NewButton("Dh Kals Private Lock", "Loads Dh Kals Private Lock", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/j08xM9mW", true))()
     print("Clicked")
 end)
@@ -816,6 +816,13 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/shakar60/N/main/Tool"
     print("Clicked")
 end)
 
+Tab5Section:NewLabel("F Tool")
+
+Tab5Section:NewButton("F tool", "Gives You F Tool", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shakar60/F/main/Tool",true))()
+    print("Clicked")
+end)
+
 Tab5Section:NewLabel("Keystrokes Script")
 
 Tab5Section:NewButton("KeyStrokes Script", "Loads WASD KeyStrokes Script", function()
@@ -867,13 +874,6 @@ Tab1Section:NewLabel("Chat Bypass")
 
 Tab1Section:NewButton("Chat Bypass Script", "Lets You Say Anything You Want", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shakar60/Chat/main/Bypass",true))()
-    print("Clicked")
-end)
-
-Tab5Section:NewLabel("F Tool")
-
-Tab5Section:NewButton("F tool", "Gives You F Tool", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/shakar60/F/main/Tool",true))()
     print("Clicked")
 end)
 
@@ -971,6 +971,11 @@ end)
 
 Tab1Section:NewButton("EspV4", "Loads EspV4", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shakar60/blue./main/esp",true))()
+    print("Clicked")
+end)
+
+Tab1Section:NewButton("EspV5", "Loads EspV5", function()
+loadstring(game:HttpGet("https://paste.gg/p/anonymous/7259b0557ebf44ccabf2f7b58dc79899/files/0475cb5d744642a2b572e3a8af205588/raw"))()
     print("Clicked")
 end)
 
