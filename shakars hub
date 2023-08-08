@@ -1070,6 +1070,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/shakar60/imperialw/ma
     print("Clicked")
 end)
 
+Tab3Section:NewLabel("haalfi-cc Lock")
+
 Tab3Section:NewButton("haalfi-cc Lock", "Loads haalfi-cc Lock Script", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/MariyaFurmanova/Library/main/DaHood", true))()
     print("Clicked")
