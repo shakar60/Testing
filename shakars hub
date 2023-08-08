@@ -2,7 +2,7 @@
 
 -- Script Hub Is Made By shakar#6955
 
--- If Your Reading This Please Dont Leak This Script
+-- Join Discord https://discord.gg/UhceAu7y
 
 -- Library & Window
 
@@ -18,7 +18,7 @@ local Notify = AkaliNotif.Notify;
 Notify({
 Description = "shakar#6955 on discord";
 Title = "shakars hub Loaded";
-Duration = 5;
+Duration = 6;
 });
 
 local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/Dynissimo/main/Scripts/AkaliNotif.lua"))();
@@ -26,7 +26,7 @@ local Notify = AkaliNotif.Notify;
 Notify({
 Description = "Join Discord https://discord.gg/UhceAu7y";
 Title = "shakars hub Loaded";
-Duration = 5;
+Duration = 8;
 });
 
 --2nd Notify
@@ -175,6 +175,11 @@ loadstring(game:HttpGet('https://pastebin.com/raw/r97d7dS0', true))()
     print("Clicked")
 end)
 
+Tab1Section:NewButton("Fe Toggle Fling Gui", "Loads Fe Toggle Fling Gui", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe./main/Fling%20GUI"))()
+    print("Clicked")
+end)
+
 Tab1Section:NewLabel("Rejoin Scripts")
 
 Tab1Section:NewButton("Rejoin Button Script", "Loads a Script Whenever You Get Kicked You Can Rejoin", function()
@@ -241,21 +246,17 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/0Ben1/fe/main/Protec
     print("Clicked")
 end)
 
-Tab1Section:NewLabel("Fly Script V1")
+Tab1Section:NewLabel("Fly Scripts")
 
 Tab1Section:NewButton("Fly Script V1", "Loads Fly Script V1", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Pro69Yes/sussy-Script/main/SecuredFlyGuiv3.lua'))()
     print("Clicked")
 end)
 
-Tab1Section:NewLabel("Fly Script V2")
-
 Tab1Section:NewButton("Fly Script V2", "Loads Fly Script V2", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Flexzstr/FlyScript/main/Beta"))()
     print("Clicked")
 end)
-
-Tab1Section:NewLabel("Fly Script V3")
 
 Tab1Section:NewButton("Fly Script V3", "Loads Fly Script V3", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/gJfKgLra"))();
@@ -698,8 +699,6 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/creepstu/fuzzy-octo-g
     print("Clicked")
 end)
 
-setclipboard("https://discord.gg/UhceAu7y")
-
 Tab18Section:NewLabel("discord is shakar#6955")
 
 Tab18Section:NewLabel("Credits To All The Poeple That Make The Scripts")
@@ -708,7 +707,7 @@ Tab18Section:NewLabel("Script Hub Is Made By shakar#6955")
 
 Tab18Section:NewLabel("The gui/hub is Kavo Ui Library")
 
-Tab18Section:NewLabel("Credits Bido Skins For Showcasing My Script Hub")
+Tab18Section:NewLabel("Credits Ppl That Showcase My Script Hub")
 
 Tab18Section:NewLabel("Credits To GamerScripter For Making The Toggle Ui Button")
 
