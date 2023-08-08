@@ -243,7 +243,7 @@ end)
 Tab7Section:NewLabel("Infinite Yield")
 
 Tab7Section:NewButton("Infinite Yeild", "Loads Infinite Yield Script", function()
-loadstring(game:HttpGet"https://pastebin.com/raw/3P1z104N")()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
     print("Clicked")
 end)
 
@@ -1067,5 +1067,10 @@ Tab3Section:NewLabel("imperialw Lock")
 
 Tab3Section:NewButton("imperialw Lock", "Loads imperialw Lock Script", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shakar60/imperialw/main/imperialw",true))()
+    print("Clicked")
+end)
+
+Tab3Section:NewButton("haalfi-cc Lock", "Loads haalfi-cc Lock Script", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MariyaFurmanova/Library/main/DaHood", true))()
     print("Clicked")
 end)
