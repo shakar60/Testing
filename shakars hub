@@ -16,17 +16,9 @@ local Window = Library.CreateLib("shakars hub", "Synapse")
 local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/Dynissimo/main/Scripts/AkaliNotif.lua"))();
 local Notify = AkaliNotif.Notify;
 Notify({
-Description = "shakar#6955 on discord";
-Title = "shakars hub Loaded";
-Duration = 6;
-});
-
-local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/Dynissimo/main/Scripts/AkaliNotif.lua"))();
-local Notify = AkaliNotif.Notify;
-Notify({
 Description = "Join Discord https://discord.gg/UhceAu7y";
 Title = "shakars hub Loaded";
-Duration = 8;
+Duration = 5;
 });
 
 --2nd Notify
@@ -1102,5 +1094,12 @@ Tab1Section:NewLabel("Fe Player Collision")
 
 Tab1Section:NewButton("Fe Player Collision", "Loads Fe Player Collition", function()
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/0Ben1/fe/main/Collision.txt'),true))()
+    print("Clicked")
+end)
+
+Tab1Section:NewLabel("Fe Zombie")
+
+Tab1Section:NewButton("Fe Zombie", "Loads Fe Zombie", function()
+loadstring(game:HttpGet(('https://pastefy.app/w7KnPY70/raw'),true))()
     print("Clicked")
 end)
