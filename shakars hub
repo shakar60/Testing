@@ -1124,14 +1124,14 @@ loadstring(game:HttpGet(('https://pastefy.app/w7KnPY70/raw'),true))()
     print("Clicked")
 end)
 
-Tab1Section:NewLabel("Fe Zombie")
+Tab1Section:NewLabel("Fe Walk On Wall")
 
 Tab1Section:NewButton("Fe Walk On Wall", "Loads Fe Walk On Wall", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/zXk4Rq2r"))()
     print("Clicked")
 end)
 
-Tab1Section:NewLabel("Fe Zombie")
+Tab1Section:NewLabel("Fe Anti Chat Ban")
 
 Tab1Section:NewButton("Fe Anti Chat Ban", "Loads Fe Anti Chat Ban", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/Wqxzdi1q'))()
