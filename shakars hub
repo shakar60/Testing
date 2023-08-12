@@ -7,7 +7,7 @@
 -- Library & Window
 
 local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
-local Window = Library.CreateLib("shakars hub", "Synapse")
+local Window = Library.CreateLib("𝖘𝖍𝖆𝖐𝖆𝖗𝖘 𝖍𝖚𝖇", "Synapse")
 
 --Notify
 
@@ -1159,5 +1159,26 @@ Tab2Section:NewLabel("Mm2 Lunar Hub")
 
 Tab2Section:NewButton("Mm2 Lunar Hub", "Loads Mm2 Lunar Hub", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/vwSaraa/LunarHub/main/mm2"))()
+    print("Clicked")
+end)
+
+Tab2Section:NewLabel("Ghost Hub")
+
+Tab2Section:NewButton("Ghost Hub", "Loads Ghost Hub", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/GhostHub'))()
+    print("Clicked")
+end)
+
+Tab2Section:NewLabel("Ice Hub")
+
+Tab2Section:NewButton("Ice Hub", "Loads Ice Hub", function()
+loadstring(game:HttpGet("https://icehub.cf/IceHubLoader"))()
+    print("Clicked")
+end)
+
+Tab7Section:NewLabel("Ice Hub Admin Command")
+
+Tab7Section:NewButton("Ice Hub Admin Commans", "Loads Ice Hub Admin Command [ its only for brookhaven ]", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/GhostHub'))()
     print("Clicked")
 end)
