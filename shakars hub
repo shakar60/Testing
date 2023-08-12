@@ -1,7 +1,5 @@
 ------------------------------------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------
---[[Key (You Can Leave It Empty)]]--
-getgenv().keysys = "WshakarW"
+
 -- Script Hub Is Made By shakar#6955
 
 -- Join Discord https://discord.gg/UhceAu7y
@@ -338,15 +336,20 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Vcsk/VcskV/main/Hub/m
     print("Clicked")
 end)
 
-Tab2Section:NewLabel("Babft Hub")
+Tab2Section:NewLabel("Babft Script Hubs")
 
 Tab2Section:NewButton("Babft Script", "Loads Babft Script", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/XRoLLu/UWU/main/BUILD%20A%20BOAT%20FOR%20TREASURE.lua'))()
     print("Clicked")
 end)
 
-Tab2Section:NewButton("Asta Hub [ Need Key ]", "Loads Babft Script Key is : FrWcd6dJxBd", function()
+Tab2Section:NewButton("Asta Hub [ Need Key ]", "Loads Asta Hub Key is : FrWcd6dJxBd", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/0YezNNRh",true))()
+    print("Clicked")
+end)
+
+Tab2Section:NewButton("Boat Blitz", "Loads Boat Blitz Script Hub", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shakar60/boat-blitz/main/script",true))()
     print("Clicked")
 end)
 
@@ -1072,13 +1075,6 @@ Tab3Section:NewLabel("Nyula Gui")
 
 Tab3Section:NewButton("Nyula Gui", "Loads Nyula Gui For Locks And More", function()--WOW WE HIT 1K
 loadstring(game:HttpGet("https://raw.githubusercontent.com/nyulachan/nyula/main/nyula", true))()
-    print("Clicked")
-end)
-
-Tab2Section:NewLabel("Honk Bypasser")
-
-Tab2Section:NewButton("Honk Bypasser Gui", "Loads Honk Bypasser", function()
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/7851fe798cf922d175832a7e3729a376.lua"))()
     print("Clicked")
 end)
 
