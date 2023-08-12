@@ -1156,3 +1156,10 @@ Tab2Section:NewButton("Prtty Much Every Bordr Game vr Script Gui", "Loads Prtty 
 loadstring(game:HttpGet('https://raw.githubusercontent.com/memejames/New/main/Hub'))()
     print("Clicked")
 end)
+
+Tab2Section:NewLabel("Mm2 Lunar Hub")
+
+Tab2Section:NewButton("Mm2 Lunar Hub", "Loads Mm2 Lunar Hub", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/vwSaraa/LunarHub/main/mm2"))()
+    print("Clicked")
+end)
