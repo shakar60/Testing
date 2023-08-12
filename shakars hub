@@ -41,18 +41,18 @@ Duration = 10;
 local NotificationBindable = Instance.new("BindableFunction")
 
 function NotificationBindable.OnInvoke(buttonPressed)
-    if buttonPressed == "Sure" then
+    if buttonPressed == "Yeah" then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AnthonyIsntHere/anthonysrepository/main/scripts/AntiChatLogger.lua"))()
-    elseif buttonPressed == "No Thanks" then
-        -- Do something when the decline button is pressed
+    elseif buttonPressed == "Nah im good" then
+        -- Do something when the Nah im good button is pressed
     end
 end
 
 game.StarterGui:SetCore("SendNotification", {
     Title = "Do You Want Anti Ban Script?",
     Text = "Loads Anti Ban Script",
-    Button1 = "Sure",
-    Button2 = "No Thanks",
+    Button1 = "Yeah",
+    Button2 = "Nah im good",
     Callback = NotificationBindable
 })
 
@@ -70,7 +70,7 @@ local Tab5 = Window:NewTab("Keystroke Tools")
 local Tab9 = Window:NewTab("Other Scripts")
 local Tab18 = Window:NewTab("Credits")
 
--------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
 
 -- Sections Inside Tabs
 
@@ -84,7 +84,8 @@ local Tab5Section = Tab5:NewSection("Keystroke Tools")
 local Tab9Section = Tab9:NewSection("Scripts")
 local Tab18Section = Tab18:NewSection("Credits")
 
--------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
+
 --Toggle Ui Button
 
 --Your Codes
@@ -103,12 +104,12 @@ ToggleGui.ResetOnSpawn = false
 UICorner.Parent = Toggle
 Toggle.Name = "Toggle"
 Toggle.Parent = ToggleGui
-Toggle.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Toggle.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
 Toggle.Position = UDim2.new(0, 0, 0.454706937, 0)--position of the toggle
 Toggle.Size = UDim2.new(0, 80, 0, 38)--size of the toggle
 Toggle.Font = Enum.Font.SourceSans
 Toggle.Text = "Toggle"--name of the toggle
-Toggle.TextColor3 = Color3.fromRGB(255, 255, 255)
+Toggle.TextColor3 = Color3.fromRGB(203, 122, 49)
 Toggle.TextSize = 19.000
 Toggle.Draggable = true
 Toggle.MouseButton1Click:connect(function()
@@ -1179,6 +1180,6 @@ end)
 Tab7Section:NewLabel("Ice Hub Admin Command")
 
 Tab7Section:NewButton("Ice Hub Admin Commans", "Loads Ice Hub Admin Command [ its only for brookhaven ]", function()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/GhostHub'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/IceMael7/IceHubAdmin/main/IceHub'))()
     print("Clicked")
 end)
