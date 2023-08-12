@@ -1176,10 +1176,3 @@ Tab2Section:NewButton("Ice Hub", "Loads Ice Hub", function()
 loadstring(game:HttpGet("https://icehub.cf/IceHubLoader"))()
     print("Clicked")
 end)
-
-Tab7Section:NewLabel("Ice Hub Admin Command")
-
-Tab7Section:NewButton("Ice Hub Admin Commans", "Loads Ice Hub Admin Command [ its only for brookhaven ]", function()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/IceMael7/IceHubAdmin/main/IceHub'))()
-    print("Clicked")
-end)
