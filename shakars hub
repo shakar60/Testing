@@ -225,10 +225,17 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/scripthubekitten/SCRI
     print("Clicked")
 end)
 
-Tab2Section:NewLabel("Kat Aimbot")
+Tab2Section:NewLabel("Kat Scripts")
 
-Tab2Section:NewButton("Kat Aimbot", "Gets You Aimbot In Kat", function()
+Tab2Section:NewButton("Kat Aimbot", "Loads Kat AimBot", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JNHHGaming/Kat12/main/Kat"))()
+    print("Clicked")
+end)
+
+Tab2Section:NewLabel("Kat Scripts")
+
+Tab2Section:NewButton("Kat Bolt Hub V5 [ Reccomended ]", "Loads Bolts Hub V5", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/fusiongreg/BoltsHubV5/main/BoltsHubV5"))()
     print("Clicked")
 end)
 
