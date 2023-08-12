@@ -232,8 +232,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JNHHGaming/Kat12/main
     print("Clicked")
 end)
 
-Tab2Section:NewLabel("Kat Scripts")
-
 Tab2Section:NewButton("Kat Bolt Hub V5 [ Reccomended ]", "Loads Bolts Hub V5", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/fusiongreg/BoltsHubV5/main/BoltsHubV5"))()
     print("Clicked")
