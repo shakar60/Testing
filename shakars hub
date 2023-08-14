@@ -1,11 +1,3 @@
-local key = "Op"
-local textbox = script.Parent
-
-if textbox.Text == key then
-    print("GG")
-else
-    print("No")
-end
 ------------------------------------------------------------------------------------------------------------------------
 
 -- Script Hub Is Made By shakar#6955
