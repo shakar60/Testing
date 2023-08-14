@@ -1171,7 +1171,7 @@ end)
 
 Tab2Section:NewLabel("Ice Hub")
 
-Tab2Section:NewButton("Ice Hub", "Loads Ice Hub", function()j
+Tab2Section:NewButton("Ice Hub", "Loads Ice Hub", function()
 loadstring(game:HttpGet("https://icehub.cf/IceHubLoader"))()
     print("Clicked")
 end)
