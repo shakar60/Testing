@@ -16,7 +16,7 @@ local Window = Library.CreateLib("Universal Shakars Hub!", "Synapse")
 local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/Dynissimo/main/Scripts/AkaliNotif.lua"))();
 local Notify = AkaliNotif.Notify;
 Notify({
-Description = "Join Discord https://discord.gg/UhceAu7y";
+Description = "Join Discord https://discord.gg/g86HSsjt";
 Title = "shakars hub Loaded";
 Duration = 5;
 });
@@ -31,7 +31,7 @@ Duration = 5;
 
 game.StarterGui:SetCore("SendNotification", {
 Title = "Join discord"; 
-Text = "https://discord.gg/UhceAu7y"; 
+Text = "https://discord.gg/g86HSsjt"; 
 Duration = 10; 
 })
 
@@ -119,7 +119,7 @@ end)
 
 --discord server
 
-setclipboard("https://discord.gg/UhceAu7y")
+setclipboard("https://discord.gg/g86HSsjt")
 
 --The Scripts
 Tab1Section:NewLabel("Local Player")
@@ -1197,7 +1197,23 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/Stronge
     print("Clicked")
 end)
 
+Tab1Section:NewLabel("RoGhoul Script")
+
 Tab1Section:NewButton("RoGhoul Script", "Loads RoGhoul Script", function()
 loadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()
+    print("Clicked")
+end)
+
+Tab1Section:NewLabel("Fe R15 To R6 Script")
+
+Tab1Section:NewButton("Fe R15 To R6 Script", "Loads Fe R15 To R6 Script", function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Imagnir/r6_anims_for_r15/main/r6_anims.lua'),true))()
+    print("Clicked")
+end)
+
+Tab1Section:NewLabel("Fe PackGod Script")
+
+Tab1Section:NewButton("Fe PackGod Script", "Loads Fe PackGod Script", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shakar60/packgod/main/script",true))()
     print("Clicked")
 end)
