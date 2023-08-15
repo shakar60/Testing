@@ -232,11 +232,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JNHHGaming/Kat12/main
     print("Clicked")
 end)
 
-Tab2Section:NewButton("Kat Bolt Hub V5 [ Reccomended ]", "Loads Bolts Hub V5", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/fusiongreg/BoltsHubV5/main/BoltsHubV5"))()
-    print("Clicked")
-end)
-
 Tab2Section:NewLabel("Strong Man Simulator Script")
 
 Tab2Section:NewButton("Strong Man Simulator Farm", "Gives You An Strong Man Simulator Gui", function()
@@ -1218,9 +1213,9 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/shakar60/packgod/main
     print("Clicked")
 end)
 
-Tab1Section:NewLabel("FrontLines Script")
+Tab2Section:NewLabel("FrontLines Script Gui")
 
-Tab1Section:NewButton("FrontLines Script", "Loads FrontLines Hitbox", function()
+Tab2Section:NewButton("FrontLines Script Gui", "Loads FrontLines Script Gui", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shakar60/frontlines./main/hitbox",true))()
     print("Clicked")
 end)
